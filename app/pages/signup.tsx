@@ -1,5 +1,5 @@
 import React from 'react';
-import SignupForm from '../app/pages/SignUpForm'; // Adjust the path as needed
+import SignupForm from './SignUpForm'; // Adjust the path as needed
 
 const signup = () => {
   return (

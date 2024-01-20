@@ -12,7 +12,7 @@ const LoginForm = () => {
                 </form>
 <div className="text-center">
     <p>Not Registered?</p>
-    <Link href="signup" className="text-blue-600 hover:underline">
+    <Link href="/signup" className="text-blue-600 hover:underline">
         Sign Up
     </Link>
 </div>
