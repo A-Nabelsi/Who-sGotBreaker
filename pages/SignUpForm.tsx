@@ -1,4 +1,6 @@
 import '../styles/tailwind.css';
+import Link from 'next/link';
+
 const SignupForm = () => {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
@@ -10,6 +12,12 @@ const SignupForm = () => {
                     <input type="password" className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-1" placeholder="Password" />
                     <button type="submit" className="w-full px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700">Sign Up</button>
                 </form>
+                <div className="text-center">
+    <p>Already Have an Account?</p>
+    <Link href="/" className="text-blue-600 hover:underline">
+        Login
+    </Link>
+</div>
             </div>
         </div>
     );
